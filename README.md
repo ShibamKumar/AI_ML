@@ -86,9 +86,3 @@ The knowledge base includes paraphrased notes grounded in:
 ## Sample Questions
 
 See `docs/SAMPLE_QA.md` for evaluation prompts and expected response patterns.
-
-## Assignment Deliverable Mapping
-
-See `docs/SUBMISSION_CHECKLIST.md` for a direct mapping to acceptance criteria and deliverables.
-
-# AI_ML
