@@ -83,6 +83,4 @@ The knowledge base includes paraphrased notes grounded in:
 2. Visit Singapore travel guide tips — https://www.visitsingapore.com/travel-guide-tips/
 3. Visit Singapore things to do / itinerary references — https://www.visitsingapore.com/see-do-singapore/
 
-## Sample Questions
 
-See `docs/SAMPLE_QA.md` for evaluation prompts and expected response patterns.
