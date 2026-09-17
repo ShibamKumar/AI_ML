@@ -1,6 +1,7 @@
 # AI Travel Planning Assistant (RAG + MCP)
 
 This project implements the **AI Travel Planning Assistant** assignment using:
+
 - **RAG** for destination knowledge (Singapore)
 - **MCP tools** for current weather and currency conversion
 - **LangChain orchestration** with a simple **Streamlit** interface
@@ -47,6 +48,7 @@ This project implements the **AI Travel Planning Assistant** assignment using:
 ## Run
 
 1. Build vector index:
+
    ```bash
    python scripts/build_index.py
    ```
@@ -63,6 +65,7 @@ start successfully in this workspace.
 ## Prompt & Context Strategy
 
 The assistant prompt enforces:
+
 - KB context for destination facts
 - MCP outputs for current information
 - explicit missing-information statements
@@ -75,6 +78,7 @@ See `docs/DECISIONS.md` for full rationale.
 ## Knowledge Base Sources
 
 The knowledge base includes paraphrased notes grounded in:
+
 1. Wikivoyage Singapore Travel Guide — https://en.wikivoyage.org/wiki/Singapore
 2. Visit Singapore travel guide tips — https://www.visitsingapore.com/travel-guide-tips/
 3. Visit Singapore things to do / itinerary references — https://www.visitsingapore.com/see-do-singapore/
@@ -86,4 +90,5 @@ See `docs/SAMPLE_QA.md` for evaluation prompts and expected response patterns.
 ## Assignment Deliverable Mapping
 
 See `docs/SUBMISSION_CHECKLIST.md` for a direct mapping to acceptance criteria and deliverables.
+
 # AI_ML
